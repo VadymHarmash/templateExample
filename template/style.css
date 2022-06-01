@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body{
+  background: url('img/image.png') 50% 200px no-repeat, url('img/back2.png') 150px -50px no-repeat, url('img/back.png');
+}
+
+.travel{
+  font-family: Arial;
+  font-size: 15px;
+  color: rgb(179, 183, 184);
+  text-shadow: -1px 0px 1px rgb(137, 145, 148);
+  padding-top: 25px;
+  padding-left: 640px;
+  letter-spacing: 3px;
+}
+
+.header{
+  font-size: 32px;
+  color: rgb(70, 70, 70);
+  text-align: center;
+  margin-left: 350px;
+  padding-top: 20px;
+  height: 50px;
+  width: 650px;
+  line-height: 50px;
+}
+
+.underfoto{
+  padding-top: 700px;
+  margin-left: 375px;
+  height: 50px;
+  width: 750px;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgb(39, 61, 70);
+}
+
+.underfotoSecond{
+  padding-top: 150px;
+  margin-left: 375px;
+  height: 50px;
+  width: 750px;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgb(39, 61, 70);
+}
+
+ul{
+    padding-top: 150px;
+}
+li{
+  font-family: Arial;
+  list-style-type: none;
+  font-size: 22px;
+  width: 750px;
+  background: url('img/check.png') 0 no-repeat;
+  margin-left: 325px;
+  padding-left: 30px;
+}
+
+.first{
+  font-weight: 700;
+  color: rgb(52, 70, 78);
+}
+.second{
+  font-style: italic;
+  color: rgb(128, 183, 179);
+}
+.third{
+  font-weight: 750;
+  color: rgb(39, 61, 70);
+}
+.fourth{
+  text-decoration: line-through;
+  color: rgb(179, 183, 184);
+}
+
+.button{
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(128, 183, 179);
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  letter-spacing: 3px;
+  border: none;
+  margin-left: 375px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.button:hover{
+  background-color: rgb(26, 48, 127);
+}
+.button:active{
+  background-color: rgb(13, 23, 58);
+}
